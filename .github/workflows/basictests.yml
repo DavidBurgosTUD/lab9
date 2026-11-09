@@ -1,0 +1,30 @@
+name: Basic Tests
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  lab9-basic-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: chmod +x validate-data.sh
+
+      - name: Test 1
+        run: |
+          output=$(bash validate-data.sh "pearse" "1234567890")
+          test "$output" = "PASS"
+
+      - name: Test 2
+        run: |
+          output=$(bash validate-data.sh "thisnameiswaytoolongforvalidation" "1234567890")
+          test "$output" = "FAIL"
+
+      - name: Test 3
+        run: |
+          output=$(bash validate-data.sh "pearse" "12345678901")
+          test "$output" = "FAIL"
