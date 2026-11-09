@@ -1,0 +1,534 @@
+    1  git pull origin feature-login
+    2  gh pr create --base main --head main --title prpractica --body Desc
+    3  gh pr create --base feature-logib --head main --title prpractica --body Desc
+    4  gh pr create --base main --head feature-login --title "add login file" --body "added login.txt"
+    5  git branch -a
+    6  cd ..
+    7  ls
+    8  cd X00229142
+    9  ls
+   10  git branch -a
+   11  cd ..
+   12  ls
+   13  clear
+   14  ls
+   15  cd practica
+   16  ls
+   17  cd practica_CA1
+   18  clear
+   19  git switch -c main
+   20  git branch
+   21  git push -u origin main
+   22  git branch -a
+   23  clear
+   24  gh pr create --base main --head feature-login --title "PR" --body "crear pr practica"
+   25  git merge feature-login && git push origin main
+   26  gh pr create --base main --head feature-login --title "PR" --body "crear pr practica"
+   27  gh pr create --base feature-login --head main  --title "PR" --body "crear pr practica"
+   28  pwd
+   29  git status
+   30  git switch feature-login
+   31  gh pr create --base main --head feature-login --title "PR" --body "crear pr practica"
+   32  git status
+   33  git add.
+   34  git add .
+   35  git commit -m "Updated login file"
+   36  git push origin feature-login
+   37  git push -u origin feature-login
+   38  gh pr create   --base main 
+   39  gh pr create --base main --head feature-login --title "PR" --body "crear pr practica"
+   40  clear
+   41  cd ..
+   42  ls
+   43  cd practica
+   44  git clone https://github.com/DavidBurgosTUD/ca1-exam-practice
+   45  ls
+   46  cd ca1-exam-practice
+   47  clear
+   48  ls
+   49  cat README.md
+   50  ls
+   51  clear
+   52  git branch -a
+   53  git remote -v
+   54  gh auth status
+   55  clear
+   56  git switch -c feature-login
+   57  nano login.txt
+   58  cat login.txt
+   59  nano login.txt
+   60  cat login.txt
+   61  git add .
+   62  git commit -m "Added login file"
+   63  ls
+   64  cat login.txtu
+   65  rm login.txtu
+   66  ls
+   67  clea
+   68  git push -u origin feature-login
+   69  clear
+   70  git status
+   71  gh pr create --base main --head feature-login --title crear pull request --body lo que sea
+   72  gh pr create --base main --head feature-login --title "crear pull request" --body "lo que sea"
+   73  git merge feature-login
+   74  gh pr list
+   75  gh pr merge feature-login --merge
+   76  git switch main
+   77  nano login.txt
+   78  ls
+   79  nano login.txt
+   80  cat login.txt
+   81  git branch
+   82  cat login.txt
+   83  git branch feature-login
+   84  switch feature-login
+   85  git switch feature-login
+   86  git branch
+   87  git add .
+   88  git commit -m "crear un error"
+   89  git push origin main
+   90  git pull origin main --rebase
+   91  nano login.txt'
+   92  nano login.txt
+   93  git add .
+   94  git commit -m "cambios hechos"
+   95  git push main
+   96  clear
+   97  la
+   98  clear
+   99  ls
+  100  cd practica
+  101  ls
+  102  cd ca1-exam-practice
+  103  ls
+  104  clear
+  105  git status
+  106  git rebase --continue
+  107  git status
+  108  clear
+  109  git branch
+  110  git tag
+  111  git tag v1.0
+  112  git tag
+  113  git push origin v1.0
+  114  gh issue create --repo DavidBurgosTUD/ca1-exam-practice --title "create hello world script" --body "enhacement"
+  115  gh issue create --repo DavidBurgosTUD/ca1-exam-practice --title "create hello world script" --body "enhacement" --assignee "x00229142@mytudblin.ie" --label enhancement
+  116  gh issue create --repo DavidBurgosTUD/ca1-exam-practice --title "create hello world script" --body "enhacement" --assignee "DavidBurgosTUD" --label enhancement
+  117  git branch issue-3-fix
+  118  git switch issue-3-fix
+  119  git branch
+  120  gh issue list
+  121  git commit -m "Fix output; fixes #4"
+  122  git add 
+  123  git add .
+  124  git commit -m "Fix output; fixes #4"
+  125  gh issue list
+  126  git branch
+  127  ls
+  128  nano login.txt
+  129  cat login.txt
+  130  git add . 
+  131  git commit -m "Fixed login file; fixes #4"
+  132  git push -u origin issue-3-fix
+  133  gh pr create --base main --head issue-3-fix --title "Fix Issue 4" --body "Resolves issue 4"
+  134  gh pr merge --merge
+  135  gh issue list
+  136  git branch
+  137  nano login.txt
+  138  cat login.txt
+  139  git add . && git commit -m "fixes #3" && git push -u origin issue-3-fix
+  140  gh pr create --base main --head issue-3-fix --title "solucion" --body "solucionar un issue #3"
+  141  gh pr merge --merge
+  142  gh issue list
+  143  git remote -v
+  144  git fetch origin
+  145  git log --oneline-- --graph --all
+  146  git log --oneline --graph --all
+  147  git tag
+  148  git tag v2.0
+  149  clear
+  150  git branch
+  151  git branch main
+  152  git main
+  153  git switch main
+  154  clear
+  155  git branch
+  156  clear
+  157  ls
+  158  clear
+  159  gh  list issues
+  160  gh issues list
+  161  clear
+  162  git issues list
+  163  git list issues
+  164  gh issues list
+  165  clear
+  166  gh issue list
+  167  clear
+  168  nano display.txt
+  169  gh issue create --repo DavidBurgosTUD/ca1-exam-practice --title "problema1" --body "lo que sea"
+  170  git branch
+  171  git branch solucionar-issue
+  172  git branch
+  173  git switch solucionar-issue
+  174  git branch
+  175  gh issue list
+  176  nano welcome.sh
+  177  cat welcome.sh
+  178  git add . && git commit -m "fix issue #7" && git push -u origin solucionar-issue
+  179  gh pr create --base main --head solucionar-issue --title "solucionar" --body "esto para cerrar el issue"
+  180  gh pr merge --merge
+  181  gh issue list
+  182  clear
+  183  git branch
+  184  git switch main
+  185  clear
+  186  git branch
+  187  git branch feature-conflict
+  188  git switch feature-conflict
+  189  ls 
+  190  nano login.txt
+  191  git add . && git commit -m "message" && git push -u origin feature-conflict
+  192  clea
+  193  clear
+  194  git switch main
+  195  lls
+  196  ls
+  197  nano login.txt
+  198  git add . && git commit -m "message" && git push -u origin main
+  199  nano login.txt
+  200  git add . && git commit -m "message" && git push -u origin main
+  201  git pull origin main
+  202  clear
+  203  pwd
+  204  git branch
+  205  cd ..
+  206  ls
+  207  ca1-exam-practice
+  208  cd ca1-exam-practice
+  209  ls
+  210  git branch
+  211  nano count1.sh
+  212  cat count1.sh
+  213  chmod +x count1.sh
+  214  ./count1.sh
+  215  git status
+  216  nano count2.sh
+  217  chmod +x count2.sh
+  218  ./count2.sh
+  219  nano count3.sh
+  220  chmod +x count3.sh
+  221  ./count3.sh
+  222  clear
+  223  davidburgosbalmaseda@cloudshell:~/practica/ca1-exam-practice$ 
+  224  clear
+  225  ssh-keygen -t ed25519 -C "x00229142@mytudublin.ie"
+  226  cat ~/.ssh/id_ed25519.pub
+  227  shh -T git@github.com
+  228  shh -T x00229142@mytudublin.ie
+  229  ssh -T x00229142@mytudublin.ie
+  230  shh -T git@github.com
+  231  ssh -T git@github.com
+  232  ls
+  233  cd practica
+  234  ls
+  235  cd ca1-exam-practice 
+  236  clear
+  237  ls
+  238  git status
+  239  clear
+  240  cd ..
+  241  clear
+  242  cd ca1-exam-practice 
+  243  clear
+  244  ls 
+  245  ls
+  246  cd practica
+  247  ls
+  248  ca1-exam-practice
+  249  cd ca1-exam-practice
+  250  clear
+  251  ls
+  252  cd practica
+  253  cd practice
+  254  clear
+  255  gh api repos/DavidBurgosTUD/ca1-exam-practice/collaborators/DavidBurgos-collab -X PUT -f permission=push
+  256  gh api repos/DavidBurgosTUD/ca1-exam-practice/collaborators/DavidBurgos-collab/permission
+  257  gh api repos/DavidBurgosTUD/ca1-exam-practice/collaborators/DavidBurgos-collab -X DELETE
+  258  gh auth status
+  259  cd ..
+  260  clear
+  261  git clone https://github.com/DavidBurgosTUD/practica-merge
+  262  git status
+  263  git init
+  264  clear
+  265  ls
+  266  cd practica-merge
+  267  ls
+  268  clear
+  269  git status
+  270  clear
+  271  git branch
+  272  clear
+  273  git branch
+  274  cleaar
+  275  git branch feature-conflict
+  276  git branch
+  277  nano README.md
+  278  cat read.me
+  279  cat READ.me
+  280  cat README.md
+  281  git add . && git commit -m "Feature" && git push -u origin feature-conflict
+  282  git switch main
+  283  git switch feature-conflict
+  284  git branch
+  285  ls
+  286  nano README.md
+  287  git add .
+  288  git commit -m "error"
+  289  git push -u origin feature-conflict
+  290  git switch main
+  291  git merge feature-conflict
+  292  nano README.md
+  293  git add . && git commit -m "solucion" && git push -u origin main
+  294  git merge feature-conflict
+  295  clear
+  296  git branch
+  297  ls
+  298  clear
+  299  git branch
+  300  gh label create EPIC --repo DavidBurgosTUD/practica-merge --description "sera epic" --color FF0000
+  301  gh label create enhancement --repo DavidBurgosTUD/practica-merge --description "nueva funcion" --color 00FF00
+  302  gh label create enhancement --repo DavidBurgosTUD/practica-merge --description "nueva funcion" --color 00FF00 --force
+  303  ghh issue create --repo DavidBurgosTUD/practica-merge --title "crear error" --body "creamos error" --assignee "@me" --label EPIC
+  304  gh issue create --repo DavidBurgosTUD/practica-merge --title "crear error" --body "creamos error" --assignee "@me" --label EPIC
+  305  gh issue list
+  306  gh issue create --repo DavidBurgosTUD/practica-merge --title "script1.sh" --body "Create script1.sh" --assignee "@me" --label enhancement
+  307  gh issue create --repo DavidBurgosTUD/practica-merge --title "script2.sh" --body "Create script2.sh" --assignee "@me" --label enhancement
+  308  gh issue create --repo DavidBurgosTUD/practica-merge --title "script3.sh" --body "Create script3.sh" --assignee "@me" --label enhancement
+  309  gh issue create --repo DavidBurgosTUD/practica-merge --title "script4.sh" --body "Create script4.sh" --assignee "@me" --label enhancement
+  310  gh issue create --repo DavidBurgosTUD/practica-merge --title "script5.sh" --body "Create script5.sh" --assignee "@me" --label enhancement
+  311  gh issue list
+  312  nano script1.sh
+  313  git add script1.sh
+  314  git commit -m "Created script1.sh; fixes #2"
+  315  git push origin main
+  316  gh issue list
+  317  ls
+  318  cd practica
+  319  ls
+  320  cd practica_CA1
+  321  cd ...
+  322  cd ..
+  323  ls
+  324  cd practica-merge
+  325  ls
+  326  clear
+  327  git clone https://github.com/DavidBurgosTUD/practica_final
+  328  git status
+  329  git branch
+  330  cd ...
+  331  cd ..
+  332  git clone https://github.com/DavidBurgosTUD/practica_final
+  333  ls
+  334  cd practica_final
+  335  ls
+  336  clear
+  337  git branch
+  338  ls
+  339  gh label create bug --repo DavidBurgosTUD/practica_final --description "defect that need fixingg" --colour FFFF00
+  340  gh label create bug --repo DavidBurgosTUD/practica_final --description "defect that need fixingg" --color FFFF00
+  341  gh label create bug --repo DavidBurgosTUD/practica_final --description "defect that need fixingg" --color FFFF00 --force
+  342  gh issue create --repo DavidBurgosTUD/practica-final --title "Fixx Login Script" --body "The login.sh script not working"
+  343  gh issue create --repo DavidBurgosTUD/practica_final --title "Fixx Login Script" --body "The login.sh script not working"
+  344  gh issue create --repo DavidBurgosTUD/practica_final --title "Fixx Login Script" --body "The login.sh script not working" --assignee "@me"
+  345  gh issue list
+  346  gh label create bug --repo DavidBurgosTUD/practica_final --description "defect that need fixingg" --color FFFF00 --label bug
+  347  gh label create bug --repo DavidBurgosTUD/practica_final --description "defect that need fixingg" --color FFFF00 --label BUG
+  348  clear
+  349  git branch fix-login
+  350  git branch
+  351  nano login.sh
+  352  cat login.sh
+  353  gh issue list
+  354  git add .
+  355  git commit -m "Fix output; fixes #2"
+  356  git push -u origin fix-login
+  357  gh issue list
+  358  clea
+  359  clear
+  360  git switch fix-login
+  361  clear
+  362  git branch
+  363  clear
+  364  git branch
+  365  gh pr create --base main --head fix-login --title "Fix login bug" --body "Fixes issue #2"
+  366  gh pr create --base fix-login --head main --title "Fix login bug" --body "Fixes issue #2"
+  367  cd ..
+  368  git clone https://github.com/DavidBurgosTUD/final
+  369  ls
+  370  cd final
+  371  cleaer
+  372  clear
+  373  gh label create enhancement --repo DavidBurgosTUD/final --description "new functionality" --color 00FF00
+  374  gh label create enhancement --repo DavidBurgosTUD/final --description "new functionality" --color 00FF00 --force
+  375  gh issues list
+  376  gh issue list
+  377  clear
+  378  gh issue create --repo DavidBurgosTUD/final --title ""Create hello.sh" --body "create a shell script" --assignee "@me" --label enhancement
+  379  gh issue create --repo DavidBurgosTUD/final --title ""Create hello.sh" --body "create a shell script" --assignee "@me" --label enhancement
+  380  gh issue create --repo DavidBurgosTUD/final --title ""Create hello.sh" --body "create a shell script" --label enhancement --assignee "@me" 
+  381  gh issue create --repo DavidBurgosTUD/final --title "Create hello.sh" --body "create a shell script" --label enhancement --assignee "@me" 
+  382  gh issue list
+  383  git switch -c feature-hello
+  384  git branch
+  385  nano hello.sh
+  386  chmod +x hello.sh
+  387  cat nhello.sh
+  388  cat hello.sh
+  389  git add .
+  390  git commit -m "fixes #1"
+  391  git push -u origin main
+  392  gh issue list
+  393  git push -u origin feature-hello
+  394  gh issue list
+  395  gh pr create --base main --head feature-hello --title "hola" --body "lo que sea"
+  396  gh pr merge feature-hello --merge
+  397  gh issue list
+  398  clear
+  399  gh label create EPIC --repo DavidBurgosTUD/final --description "large feature" --color FF0000
+  400  gh issue create -repo DavidBurgosTUD/final --title "build utility" --body "any" --assignee "@me" --label EPIC
+  401  gh issue create --repo DavidBurgosTUD/final --title "build utility" --body "any" --assignee "@me" --label EPIC
+  402  gh issue create --repo DavidBurgosTUD/final --title "script1.sh" body "nada" --label enhancement --assignee "@me"
+  403  gh issue create --repo DavidBurgosTUD/final --title "script1.sh" --body "nada" --label enhancement --assignee "@me"
+  404  gh issue create --repo DavidBurgosTUD/final --title "script2.sh" --body "nada" --label enhancement --assignee "@me"
+  405  gh issue create --repo DavidBurgosTUD/final --title "script3.sh" --body "nada" --label enhancement --assignee "@me"
+  406  clear
+  407  gh issue list
+  408  clear
+  409  gh issue list
+  410  git switch -c script1-feature
+  411  git branch
+  412  git branch main
+  413  clear
+  414  git switch main
+  415  gait branch
+  416  git branch
+  417  git switch script1-feature
+  418  git branch
+  419  clear
+  420  gh issue list
+  421  git branch 
+  422  nano script1.sh
+  423  cat script1.sh
+  424  chmod +x script1.sh
+  425  git add .
+  426  git commit -m "fixes #4"
+  427  git push -u origin script1-feature
+  428  gh pr create --base main --head script1-feature --title "lo que sea" --body "descripcion"
+  429  gh pr merge --merge
+  430  gh issue list
+  431  clear
+  432  gh issue list
+  433  ls
+  434  git clone https://github.com/pearse1104/X00229142
+  435  clea
+  436  clear
+  437  ls
+  438  cd x00229142
+  439  cd X00229142
+  440  ls
+  441  cd ..
+  442  git clone pearse1104/CA1-SOFTWARE
+  443  git clone https://github.com/pearse1104/CA1-SOFTWARE
+  444  ls
+  445  cd CA1-SOFTWARE
+  446  ls
+  447  clear
+  448  ls
+  449  bash user-setup.sh
+  450  ls
+  451  cat user.txt
+  452  git remote -v
+  453  git remote add origin https://github.com/DavidBurgosTUD/devopsCA1sw
+  454  git remote -v
+  455  git remote set-url origin https://github.com/DavidBurgosTUD/devopsCA1sw
+  456  git remote -v
+  457  git add .
+  458  git commit -m "changes made."
+  459  git push
+  460  git remote add DavidBurgosTUD https://github.com/DavidBurgosTUD/devopsCA1sw; pearse  git push https://github.com/pearse1104/CA1-SOFTWARE
+  461  git remote add DavidBurgosTUD https://github.com/DavidBurgosTUD/devopsCA1sw; pearse1104  git push https://github.com/pearse1104/CA1-SOFTWARE
+  462  git remote add pearse1104  git push https://github.com/pearse1104/CA1-SOFTWARE ; git push DavidBurgosTUD https://github.com/DavidBurgosTUD/devopsCA1sw
+  463  ls
+  464  cd ..
+  465  ls
+  466  git clone https://github.com/DavidBurgosTUD/devopsCA1sw
+  467  ls
+  468  cd devopsCA1sw
+  469  ls
+  470  git remote add pearse1104  git push https://github.com/pearse1104/CA1-SOFTWARE ; git push DavidBurgosTUD https://github.com/DavidBurgosTUD/devopsCA1sw
+  471  git remote add DavidBurgosTUD https://github.com/DavidBurgosTUD/devopsCA1sw; pearse1104  git push https://github.com/pearse1104/CA1-SOFTWARE
+  472  clear
+  473  gh issue create --repo DavidBurgosTUD/devopsCA1sw --title "myBigBug" --body "q9" --color #e3a83a
+  474  gh issue create --repo DavidBurgosTUD/devopsCA1sw --title "myBigBug" --body "q9" --color #E3A83A
+  475  gh issue create --repo DavidBurgosTUD/devopsCA1sw --title "myBigBug" --body "q9" --color E3A83A
+  476  gh issue create --repo DavidBurgosTUD/devopsCA1sw --title "myBigBug" --body "q9" --color e3a83a
+  477  gh label create issue --repo DavidBurgosTUD/devopsCA1sw --title "myBigBug" --body "q9" --color e3a83a
+  478  gh issue create --repo DavidBurgosTUD/devopsCA1sw --title "myBigBug" --body "q9" --color FF0000
+  479  gh issue create --repo DavidBurgosTUD/devopsCA1sw --color e3a83a --title "myBigBug" --body "q9" 
+  480* gh issue create --repo DavidBurgosTUDlab9 --title "" --body "laboratorio9" 
+  481  gh label create MyBigBug --repo DavidBurgosTUD/devopsCA1sw --description "q9" --color e3a83a
+  482  clear
+  483  gh issue create --repo DavidBurgosTUD/devopsCA1sw --title "Issue uno" --body "anything" --assignee "@me" --label enhancement 
+  484  gh issue create --repo DavidBurgosTUD/devopsCA1sw --title "Issue uno" --body "anything" --assignee "@me" --label MyBigBug
+  485  cd ..
+  486  ls
+  487  cd CA1-SOFTWARE
+  488  cd ..
+  489  cd X00229142
+  490  clear
+  491  ls
+  492  git branch myCA1branch
+  493  git branch
+  494  cd ..
+  495  ls
+  496  cd CA1-SOFTWARE
+  497  ls
+  498  cd devops
+  499  clear
+  500  ls
+  501  git clone https://github.com/DavidBurgosTUD/lab9
+  502  clear
+  503  ls
+  504  cd lab9
+  505  clear
+  506  ls
+  507  clear
+  508  nano validate-data.sh
+  509  bash validate-data.sh "pearse mcarthy" "0831122334"
+  510  bash validate-data.sh "pearse mcarthy" "08311223344"
+  511  bash validate-data.sh "pearset mcarthy" "08311223344"
+  512  cat nano validate-data.sh
+  513  cat validate-data.sh
+  514  bash validate-data.sh "pearse mcarthy" "0831122334"
+  515  bash validate-data.sh "pearse mcarthy" "08311223344"
+  516  bash validate-data.sh "pearset mcarthy" "08311223344"
+  517  clear
+  518  git add .
+  519  git commit -m "validate"
+  520  mkdir -p .github/workflows
+  521  touch .github/workflows/basictests.yml
+  522  nano basictests.yml
+  523  git add . && git commit -m "intregrar" && git push -u origin main
+  524  nano .github/workflows/basictests.yml
+  525  git add . && git commit -m "intregrar" && git push -u origin main
+  526  cat .github/workflows/basictests.yml
+  527  gh issue create --title "create lab9 project" --label enhancement --assignee @me
+  528  gh issue create --title "create test branch" --label enhancement --assignee @me
+  529  git checkout -b test
+  530  ;ls
+  531  ls
+  532  nano validate-data.sh
+  533  git add . && git commit -m "intregrar" && git push -u origin main
+  534  history>history.txt
